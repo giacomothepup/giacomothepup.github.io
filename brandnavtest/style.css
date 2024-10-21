@@ -1,0 +1,187 @@
+
+body{
+  font-family:Mukta, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 18px;
+  background-color: white;
+  margin:0;  
+  padding:0;
+  font-weight: 400;
+
+}
+.outer{
+   text-align: center;
+}
+.page{
+	max-width: 1200px;
+	position: relative;
+	margin-top: 0px;
+	width: 100%;
+   height:100%;
+   display: inline-block;
+   background-color: white;
+	text-align: left;
+	opacity:.6;
+}
+.topofpage{
+    position: sticky;
+	position: -webkit-sticky; /*Safari*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	height: 100px;
+	width: 100%;
+	top:0;
+	z-index: 100;
+	background-color: white;
+	opacity: .9;
+}
+.navbar{
+	flex-grow: 1;
+	text-align: left;
+}
+.logo{
+	max-width: 100px;
+	text-align: left;
+}
+.logo_img{
+	margin-top: 5px;
+	margin-left: 25px;
+	width: 55%;
+}
+.search{
+	margin-left: auto;
+	align-content: flex-end;
+	max-width: 50px;
+}
+.search_img{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 40%;
+}
+a{
+  color:black;
+  font-size:16px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right:20px;
+}
+
+a:hover {
+  color:#00754a;  
+ }
+  a:active {
+  color:#fbbc05;
+}
+
+.content{
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #dce7a3;
+	text-align: left;
+}
+
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	
+}
+.tilebg1{
+	background-image: url("img/coffeeandbook.jpg");
+}
+ 
+.tilebg2{
+	background-image: url("img/coffeebeanart.jpg");
+}
+	
+.tilebg3{
+	background-image: url("img/barista.jpg");
+}
+
+.tilebg4{
+	background-image: url("img/cupofcoffee.jpg");
+}
+
+.tilebg5{
+	background-image: url("img/coffeebean.jpg");
+}
+
+.tilebg6{
+	background-image: url("img/starbuckscup.jpg");
+}
+
+.menu{
+	display: none;
+	
+}
+
+.menu img{
+	width:10px;
+	padding: 10px;
+}
+
+.innermenu div{
+	padding-bottom:50px;
+}
+#menuoverlay{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	background-color: pink;
+	width: 100%;
+	height: 98vh;
+	display: none;
+	text-align: center;
+}
+
+#close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 60px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+	
+	body{
+		background-color: orange;
+		
+	}
+	.page{
+		max-width:480px; 
+	}
+	.menu{
+		display: inline-block;
+	}
+	.navbar{
+		display:none;
+	}
+	.logo{
+		display: none;
+	}
+}
+
+@media screen and (max-width:850px) and (max-width:1250px){
+	body{
+		background-color: #000;
+		
+	}
+	.page{
+		max-width:800px; 
+	}
+	
+}
+
+@media screen and (max-width:1450px) and (max-width:1250px){
+	body{
+		background-color: skyblue;
+		
+	}
+	.page{
+		max-width:1400px; 
+	}
+	
+}
