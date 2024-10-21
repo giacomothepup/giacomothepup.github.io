@@ -128,12 +128,12 @@ a:hover {
 #menuoverlay{
 	position: fixed;
 	top:0px;
-	left: 10px;
-	background-color: #dce7a3;
+	left: 0px;
+	background-color:#dce7a3;
 	width: 100%;
 	height: 100%;
 	display: none;
-	text-align: left;
+	text-align: center;
 	z-index: 999;
 }
 
