@@ -1,8 +1,8 @@
 function showmenu(){
-	document.getElementByID ('menuoverlay').style.display="block";
+	document.getElementById ('menuoverlay').style.display="block";
 }
 
 function hidemenu(){
-	document.getElementByID
+	document.getElementById
 	('menuoverlay').style.display="none";
 }
