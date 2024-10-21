@@ -113,7 +113,7 @@ a:hover {
 
 .menu{
 	display: none;
-	
+	cursor:pointer;
 }
 
 .menu img{
@@ -125,7 +125,7 @@ a:hover {
 	padding-bottom:50px;
 }
 #menuoverlay{
-	position: absolute;
+	position: fixed;
 	top:0px;
 	left: 0px;
 	background-color: pink;
@@ -133,6 +133,7 @@ a:hover {
 	height: 98vh;
 	display: none;
 	text-align: center;
+	z-index: 999;
 }
 
 #close{
@@ -145,12 +146,6 @@ a:hover {
 
 @media screen and (max-width: 768px){
 	
-	body{
-		
-	}
-	.page{
-		max-width:480px; 
-	}
 	.menu{
 		display: inline-block;
 	}
