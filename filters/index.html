@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: contrast(240%) saturate(240%); 
+      filter: contrast(240%) saturate(240%);
+	  width: 600px; 
+	 
+      
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 3s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: contrast(100%) saturate(100%); 
+	        filter: contrast(100%) saturate(100%);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/tree.jpg" alt="tree">
+
+</body>
+</html>
